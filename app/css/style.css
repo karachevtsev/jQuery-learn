@@ -1,0 +1,41 @@
+.menu {
+  background-color: #418DB3; }
+
+.menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+@media screen and (max-width: 500px) {
+  .menu__list {
+    display: none; } }
+
+.menu__item, .menu__toggle {
+  display: inline-block; }
+
+@media screen and (max-width: 500px) {
+  .menu__item, .menu__toggle {
+    display: block;
+    text-align: center; } }
+
+.menu__link, .menu__toggle {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: #fff; }
+
+.menu__link:hover, .menu__toggle:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #FD746C; }
+
+@media screen and (max-width: 500px) {
+  .menu__link, .menu__toggle {
+    border-bottom: 1px solid #fff; } }
+
+.menu__toggle {
+  display: none; }
+
+@media screen and (max-width: 500px) {
+  .menu__toggle {
+    display: block; } }

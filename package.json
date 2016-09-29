@@ -1,0 +1,26 @@
+{
+  "name": "jQuery-learn",
+  "version": "1.0.0",
+  "description": "Repository for learn jQuery",
+  "author": "Artem Karachevtsev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karachevtsev/jQuery-learn.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "6.3.6",
+    "browser-sync": "2.12.10",
+    "css-mqpacker": "^5.0.1",
+    "del": "^2.2.1",
+    "gulp": "3.9.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "6.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "run-sequence": "^1.2.1"
+  }
+}
