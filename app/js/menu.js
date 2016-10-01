@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
   $('.menu__toggle').click(function(event) {
     console.log("clock");
     $('.menu__list').slideToggle(400);

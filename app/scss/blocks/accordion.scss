@@ -1,0 +1,28 @@
+.panel {
+  border: none;
+  box-shadow: none;
+
+  &__title {
+    padding: 5px;
+    margin: 10px 0 0 0;
+
+    font-size: 18px;
+    text-align :center;
+
+    background-color: #FF6766;
+    border-radius:5px 5px 0 0;
+    color:#FFFFF7;
+    &:hover {
+      cursor: pointer;
+      background-color: #FF7877;
+    }
+  }
+
+  &__text {
+    padding: 5px;
+
+    background-color: #FFFFF7;
+    border-radius: 0 0 5px 5px;
+    color: #60646D;
+  }
+}
