@@ -1,5 +1,6 @@
 .menu {
-  background-color: #418DB3; }
+  background-color: #418DB3;
+  transition: all 0.3s ease-out; }
 
 .menu__list {
   margin: 0;
@@ -40,6 +41,13 @@
   .menu__toggle {
     display: block; } }
 
+.menu--fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 7px 17px -2px #757575; }
+
 .panel {
   border: none;
   box-shadow: none; }
@@ -62,3 +70,18 @@
   background-color: #FFFFF7;
   border-radius: 0 0 5px 5px;
   color: #60646D; }
+
+.header {
+  position: relative;
+  margin-bottom: 40px; }
+
+.header__title {
+  margin-bottom: 40px;
+  font-size: 42px; }
+
+.header__text {
+  margin-bottom: 40px;
+  font-size: 22px; }
+
+.content__text {
+  font-size: 18px; }
