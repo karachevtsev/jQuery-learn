@@ -85,3 +85,38 @@
 
 .content__text {
   font-size: 18px; }
+
+.tabs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.tabs__item {
+  position: relative;
+  z-index: 0;
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #f5f5f5;
+  color: #000;
+  opacity: 0.8;
+  cursor: pointer; }
+
+.tabs__item:hover {
+  color: #000; }
+
+.tabs__item--active {
+  background-color: #bcbcbc;
+  color: #000;
+  opacity: 1; }
+
+.tabs__panel {
+  padding: 50px;
+  background-color: #bcbcbc; }
+
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px;
+  background-color: #FD746C; }

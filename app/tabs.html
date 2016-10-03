@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -31,9 +31,9 @@
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li ><a href="menu.html">Adaptive menu</a></li>
+          <li><a href="menu.html">Adaptive menu</a></li>
           <li><a href="accordion.html">Accordion</a></li>
-          <li><a href="sticky-navigation.html">Sticky navigation</a></li>
+          <li><a href="sticky.html">Sticky navigation</a></li>
           <li><a href="tabs.html">Togglable tabs</a></li>
         </ul>
       </div><!--/.nav-collapse -->
@@ -46,11 +46,20 @@
   <hr>
   <!-- Use Emmet   -->
   <div class="container">
-
-
-
-
-
+    <div class="col-md-6 col-md-offset-3">
+      <div class="tabs">
+        <ul class="tabs__list">
+          <li class="tabs__item tabs__item--active">Tab #1</li>
+          <li class="tabs__item">Tab #2</li>
+          <li class="tabs__item">Tab #3</li>
+        </ul>
+        <div class="tabs__content">
+          <div class="tabs__panel">First panel! <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, quibusdam illo atque necessitatibus dicta temporibus blanditiis rem odit porro animi eius quia repellendus optio maiores consequatur, facere reprehenderit veniam. Eveniet!</div>
+          <div class="tabs__panel">Second panel! <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit repudiandae fugit nulla, sint ipsum eaque beatae ipsa, quisquam inventore dolorem ad molestias illum commodi assumenda dolores exercitationem, modi optio consectetur!</div>
+          <div class="tabs__panel">Third panel! <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus id nobis accusantium temporibus vitae voluptas odit cupiditate minima quasi voluptatum, assumenda, autem laudantium! Unde qui amet nisi, iusto tenetur esse.</div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
